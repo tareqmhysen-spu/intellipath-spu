@@ -273,9 +273,8 @@ intellipath/
 This project is a graduation project fully developed by Tareq Mhysen as part of the requirements for obtaining a Bachelor's degree in Artificial Intelligence and Data Science from the Syrian Private University.
 
 ### فترة التطوير | Development Period
-- **بداية المشروع**: 2024
-- **تاريخ الإكمال**: 2025
-- **المدة**: أكثر من سنة من التطوير المستمر
+- **بداية المشروع**: 2025
+- **تاريخ الإكمال**: 2026
 
 ### التقنيات المطورة | Developed Technologies
 - ✅ نظام RAG متكامل من الصفر
