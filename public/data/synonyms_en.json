@@ -1,0 +1,22 @@
+{
+  "course": ["class", "subject", "module", "مادة", "كورس"],
+  "requirements": ["prerequisites", "متطلبات", "conditions"],
+  "GPA": ["grade point average", "معدل", "المعدل التراكمي"],
+  "credits": ["credit hours", "ساعات", "units"],
+  "major": ["specialization", "مسار", "field of study"],
+  "graduation": ["completion", "تخرج", "degree completion"],
+  "prerequisites": ["prereqs", "متطلبات سابقة", "required courses"],
+  "registration": ["enrollment", "تسجيل", "sign up"],
+  "regulation": ["rule", "لائحة", "policy"],
+  "academic": ["educational", "أكاديمي", "university"],
+  "semester": ["term", "فصل", "period"],
+  "degree": ["diploma", "شهادة", "qualification"],
+  "curriculum": ["program", "مناهج", "course structure"],
+  "internship": ["training", "تدريب", "work experience"],
+  "thesis": ["dissertation", "رسالة", "research project"],
+  "project": ["assignment", "مشروع", "work"],
+  "year": ["academic year", "سنة", "level"],
+  "system": ["regulation", "نظام", "framework"],
+  "student": ["learner", "طالب", "pupil"]
+}
+

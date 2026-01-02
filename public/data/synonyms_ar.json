@@ -1,0 +1,23 @@
+{
+  "متطلبات": ["شروط", "مستلزمات", "مطالب", "requirements"],
+  "لائحة": ["نظام", "قانون", "regulation", "rules"],
+  "مادة": ["كورس", "course", "مساق", "مقرر"],
+  "تخرج": ["graduation", "نهاية الدراسة"],
+  "معدل": ["GPA", "grade point average", "المعدل التراكمي"],
+  "ساعات": ["credits", "credit hours", "وحدات"],
+  "مسار": ["path", "specialization", "تخصص"],
+  "prerequisites": ["متطلبات سابقة", "شروط سابقة"],
+  "CS": ["computer science", "علوم حاسوب"],
+  "GPA": ["grade point average", "معدل", "المعدل التراكمي"],
+  "شهادة": ["degree", "diploma", "إجازة"],
+  "تسجيل": ["registration", "enrollment", "enrolment"],
+  "مناهج": ["curriculum", "courses", "مقررات"],
+  "نظام": ["system", "regulation", "قواعد"],
+  "أكاديمي": ["academic", "تعليمي", "دراسي"],
+  "فصل": ["semester", "term", "ترم"],
+  "سنة": ["year", "عام"],
+  "مشروع": ["project", "بحث", "assignment"],
+  "رسالة": ["thesis", "dissertation", "بحث تخرج"],
+  "تدريب": ["internship", "training", "تدريب عملي"]
+}
+

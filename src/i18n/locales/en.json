@@ -1,0 +1,690 @@
+{
+  "chat": {
+    "title": "AI Academic Advisor",
+    "thinking": "Thinking...",
+    "connected": "Connected",
+    "createError": "Failed to create conversation",
+    "deleteError": "Failed to delete conversation"
+  },
+  "career": {
+    "title": "Career Planner",
+    "subtitle": "Plan your career path",
+    "paths": "Career Paths",
+    "roadmap": "Roadmap",
+    "skills": "Skills",
+    "salary": "Expected Salary",
+    "demand": "Market Demand",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "progress": "Progress",
+    "requiredCourses": "Required Courses",
+    "requiredSkills": "Required Skills",
+    "yourMilestones": "Your Milestones",
+    "startPath": "Start This Path",
+    "trackProgress": "Track your progress towards career goals"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "level": "Level {{level}}",
+    "celebrate": "Celebrate!",
+    "rank": "Rank",
+    "streak": "Streak",
+    "badges": "Badges",
+    "leaderboard": "Leaderboard",
+    "challenges": "Challenges",
+    "topStudents": "Top Students This Week",
+    "progressLabel": "Progress",
+    "resetIn": "Weekly challenges reset in",
+    "resetTime": "3 days and 14 hours",
+    "completedCount": "2/3 Complete"
+  },
+  "learningStyle": {
+    "title": "Learning Style Analysis",
+    "subtitle": "Discover your optimal learning style",
+    "question": "Question",
+    "of": "of",
+    "yourResults": "Your Results",
+    "dominantStyle": "Your Dominant Style",
+    "tips": "Study Tips",
+    "retake": "Retake Quiz",
+    "share": "Share Results",
+    "download": "Download Report",
+    "previousQuestion": "Previous Question"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "refresh": "Refresh",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "welcome": "Welcome",
+    "home": "Home",
+    "about": "About"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Enter your credentials to access your account",
+      "email": "Email",
+      "emailPlaceholder": "example@spu.edu.sy",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create a new account",
+      "button": "Sign In",
+      "loading": "Signing in..."
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join IntelliPath for intelligent academic advising",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "University Email",
+      "emailPlaceholder": "your.id@spu.edu.sy",
+      "studentId": "Student ID",
+      "studentIdPlaceholder": "2020123456",
+      "department": "Department",
+      "selectDepartment": "Select department",
+      "yearLevel": "Year Level",
+      "selectYear": "Select year",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "passwordRequirements": {
+        "title": "Password must contain:",
+        "minLength": "At least 8 characters",
+        "uppercase": "One uppercase letter",
+        "lowercase": "One lowercase letter",
+        "number": "At least one number",
+        "special": "One special character (!@#$%^&*)"
+      },
+      "termsAgree": "I agree to the",
+      "termsLink": "Terms and Conditions",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Sign in",
+      "button": "Create Account",
+      "loading": "Creating account...",
+      "steps": {
+        "basicInfo": "Basic Info",
+        "academicInfo": "Academic Info",
+        "security": "Security",
+        "verification": "Verification"
+      }
+    },
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "invalidPassword": "Invalid password",
+      "emailExists": "Email already exists",
+      "networkError": "Connection error, please try again",
+      "unauthorized": "Unauthorized access"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "chat": "AI Chat",
+    "progress": "Academic Progress",
+    "courses": "Courses",
+    "achievements": "Achievements",
+    "career": "Career Path",
+    "simulator": "Decision Simulator",
+    "learningStyle": "Learning Style",
+    "talentLedger": "Talent Ledger",
+    "deadlines": "Deadlines",
+    "knowledgeGraph": "Knowledge Graph",
+    "messages": "Messages",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "About",
+    "admin": "Admin Panel",
+    "advisor": "Advisor Panel"
+  },
+  "landing": {
+    "hero": {
+      "title": "Your Intelligent Academic Advisor",
+      "subtitle": "A comprehensive AI-powered academic advising system for Engineering students at Syrian Private University",
+      "cta": {
+        "register": "Create Account",
+        "login": "Sign In",
+        "demo": "Try Now"
+      }
+    },
+    "features": {
+      "title": "System Features",
+      "security": {
+        "title": "High Security",
+        "description": "Complete protection for your academic data with the latest encryption technologies"
+      },
+      "instant": {
+        "title": "Instant Responses",
+        "description": "Get accurate answers to your academic questions in seconds"
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Personalized recommendations based on your performance and academic goals"
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Create Account",
+        "description": "Register using your university email"
+      },
+      "step2": {
+        "title": "Verify Identity",
+        "description": "Confirm your account via email"
+      },
+      "step3": {
+        "title": "Ask Questions",
+        "description": "Chat with the intelligent advisor"
+      },
+      "step4": {
+        "title": "Get Recommendations",
+        "description": "Receive personalized plans for your academic path"
+      }
+    },
+    "userTypes": {
+      "students": {
+        "title": "For Students",
+        "description": "Discover your academic potential with intelligent support",
+        "benefits": [
+          "Track your academic progress",
+          "Personalized course recommendations",
+          "Career path planning",
+          "Motivational achievements and rewards"
+        ]
+      },
+      "staff": {
+        "title": "For Academic Staff",
+        "description": "Advanced tools for monitoring and supporting students",
+        "benefits": [
+          "Early warning system for at-risk students",
+          "Comprehensive analytical reports",
+          "Direct communication with students",
+          "Manage appointments and tasks"
+        ]
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "studentTab": "Student Zone",
+      "adminTab": "Admin Zone",
+      "studentServices": {
+        "chat": {
+          "title": "AI Chat",
+          "description": "Chat with the intelligent academic advisor"
+        },
+        "progress": {
+          "title": "Academic Progress",
+          "description": "Track your progress toward graduation"
+        },
+        "simulator": {
+          "title": "Decision Simulator",
+          "description": "Test different academic scenarios"
+        },
+        "career": {
+          "title": "Career Path",
+          "description": "Plan your professional future"
+        },
+        "achievements": {
+          "title": "Achievements",
+          "description": "Earn motivational points and badges"
+        },
+        "learningStyle": {
+          "title": "Learning Style",
+          "description": "Discover your ideal learning style"
+        },
+        "talent": {
+          "title": "Talent Ledger",
+          "description": "Document your skills and achievements"
+        },
+        "courses": {
+          "title": "Course Fingerprint",
+          "description": "Detailed course analytics"
+        }
+      },
+      "adminServices": {
+        "ews": {
+          "title": "Early Warning",
+          "description": "Monitor at-risk students"
+        },
+        "analytics": {
+          "title": "Analytics",
+          "description": "Comprehensive reports and statistics"
+        },
+        "management": {
+          "title": "User Management",
+          "description": "Manage student and advisor accounts"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "All Rights Reserved",
+      "university": "Syrian Private University - Faculty of Engineering"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "subtitle": "Here's your academic activity summary",
+    "stats": {
+      "gpa": "Cumulative GPA",
+      "credits": "Credits Earned",
+      "xp": "XP Points",
+      "achievements": "Achievements",
+      "level": "Level {{level}}",
+      "streak": "{{days}} Day Streak"
+    },
+    "currentSemester": {
+      "title": "Current Semester",
+      "courses": "Enrolled Courses",
+      "credits": "Credit Hours"
+    },
+    "deadlines": {
+      "title": "Upcoming Deadlines",
+      "empty": "No upcoming deadlines",
+      "viewAll": "View All"
+    },
+    "achievements": {
+      "title": "Recent Achievements",
+      "empty": "No achievements yet",
+      "viewAll": "View All"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "chat": "AI Chat",
+      "gpa": "GPA Calculator",
+      "progress": "Progress",
+      "career": "Career Path"
+    }
+  },
+  "chat": {
+    "title": "Intelligent Academic Advisor",
+    "newChat": "New Chat",
+    "placeholder": "Type your question here...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "suggestedQuestions": {
+      "title": "Suggested Questions",
+      "items": [
+        "What courses are available for next semester?",
+        "How can I improve my GPA?",
+        "What are the graduation requirements?",
+        "What career path suits me?"
+      ]
+    },
+    "history": {
+      "title": "Chat History",
+      "empty": "No previous conversations",
+      "delete": "Delete Conversation",
+      "deleteConfirm": "Are you sure you want to delete this conversation?"
+    }
+  },
+  "progress": {
+    "title": "Academic Progress",
+    "overview": {
+      "title": "Overview",
+      "completed": "Completed",
+      "remaining": "Remaining",
+      "graduation": "Graduation Progress"
+    },
+    "credits": {
+      "title": "Credits Distribution",
+      "core": "College Requirements",
+      "major": "Major Requirements",
+      "elective": "Electives",
+      "lab": "Labs"
+    },
+    "gpaHistory": {
+      "title": "GPA History",
+      "semester": "Semester",
+      "gpa": "GPA"
+    },
+    "warnings": {
+      "title": "Academic Alerts",
+      "lowGpa": "Low GPA",
+      "missingPrereq": "Missing Prerequisites",
+      "deadline": "Upcoming Deadline"
+    }
+  },
+  "achievements": {
+    "title": "Achievements",
+    "xp": {
+      "title": "Experience Points",
+      "current": "Current Points",
+      "nextLevel": "Next Level",
+      "remaining": "{{points}} points remaining"
+    },
+    "leaderboard": {
+      "title": "Leaderboard",
+      "rank": "Rank",
+      "name": "Name",
+      "xp": "Points"
+    },
+    "badges": {
+      "title": "Badges",
+      "locked": "Locked",
+      "unlocked": "Unlocked",
+      "progress": "{{current}}/{{total}}"
+    },
+    "categories": {
+      "academic": "Academic",
+      "social": "Social",
+      "consistency": "Consistency",
+      "special": "Special"
+    }
+  },
+  "career": {
+    "title": "Career Path",
+    "paths": {
+      "title": "Career Paths",
+      "match": "Match Percentage",
+      "software": "Software Engineer",
+      "data": "Data Scientist",
+      "devops": "DevOps Engineer",
+      "ai": "AI/ML Engineer",
+      "security": "Cybersecurity Engineer",
+      "network": "Network Engineer"
+    },
+    "skills": {
+      "title": "Skills Analysis",
+      "current": "Current Skills",
+      "required": "Required Skills",
+      "gap": "Gap"
+    },
+    "recommendations": {
+      "title": "Recommended Courses",
+      "priority": "Priority",
+      "addToPlan": "Add to Plan"
+    },
+    "market": {
+      "title": "Job Market Insights",
+      "salary": "Salary Range",
+      "demand": "Demand",
+      "employers": "Top Employers"
+    }
+  },
+  "simulator": {
+    "title": "Decision Simulator",
+    "builder": {
+      "title": "Scenario Builder",
+      "selectCourses": "Select Courses",
+      "expectedGrade": "Expected Grade",
+      "credits": "Credits"
+    },
+    "calculator": {
+      "title": "GPA Calculator",
+      "current": "Current GPA",
+      "projected": "Projected GPA",
+      "change": "Change"
+    },
+    "impact": {
+      "title": "Impact Analysis",
+      "graduation": "Graduation Date",
+      "prerequisites": "Prerequisites Unlocked",
+      "risk": "Risk Level"
+    },
+    "scenarios": {
+      "title": "Ready Scenarios",
+      "fail": "What if I fail?",
+      "summer": "Summer Study",
+      "overload": "Course Overload",
+      "save": "Save Scenario"
+    }
+  },
+  "learningStyle": {
+    "title": "Learning Style",
+    "quiz": {
+      "title": "VARK Quiz",
+      "start": "Start Quiz",
+      "question": "Question {{current}} of {{total}}",
+      "submit": "Submit Answers"
+    },
+    "results": {
+      "title": "Your Results",
+      "visual": "Visual",
+      "auditory": "Auditory",
+      "reading": "Read/Write",
+      "kinesthetic": "Kinesthetic",
+      "dominant": "Dominant Style"
+    },
+    "tips": {
+      "title": "Personalized Tips",
+      "strategies": "Study Strategies",
+      "resources": "Recommended Resources",
+      "tools": "Useful Tools"
+    }
+  },
+  "talentLedger": {
+    "title": "Talent Ledger",
+    "skills": {
+      "title": "Skills",
+      "add": "Add Skill",
+      "level": "Level",
+      "endorsements": "Endorsements"
+    },
+    "projects": {
+      "title": "Projects",
+      "add": "Add Project",
+      "tech": "Technologies",
+      "link": "Project Link"
+    },
+    "certificates": {
+      "title": "Certificates",
+      "add": "Add Certificate",
+      "verified": "Verified",
+      "pending": "Pending Review"
+    },
+    "cv": {
+      "title": "CV Builder",
+      "template": "Choose Template",
+      "export": "Export PDF",
+      "linkedin": "Export to LinkedIn"
+    }
+  },
+  "courses": {
+    "title": "Course Fingerprint",
+    "search": {
+      "placeholder": "Search for a course...",
+      "byCode": "By Code",
+      "byName": "By Name"
+    },
+    "filters": {
+      "department": "Department",
+      "credits": "Credits",
+      "semester": "Semester",
+      "difficulty": "Difficulty"
+    },
+    "details": {
+      "code": "Course Code",
+      "name": "Course Name",
+      "credits": "Credit Hours",
+      "prerequisites": "Prerequisites",
+      "description": "Description",
+      "outcomes": "Learning Outcomes"
+    },
+    "analytics": {
+      "title": "Course Analytics",
+      "passRate": "Pass Rate",
+      "avgGrade": "Average Grade",
+      "difficulty": "Difficulty Rating",
+      "reviews": "Student Reviews"
+    },
+    "compare": {
+      "title": "Compare Courses",
+      "add": "Add to Compare",
+      "clear": "Clear Comparison"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "stats": {
+      "totalUsers": "Total Users",
+      "activeSessions": "Active Sessions",
+      "apiCalls": "API Calls",
+      "errorRate": "Error Rate"
+    },
+    "users": {
+      "title": "User Management",
+      "search": "Search for a user...",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "active": "Active",
+      "suspended": "Suspended",
+      "edit": "Edit",
+      "delete": "Delete",
+      "suspend": "Suspend"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "import": "Import Students",
+      "announce": "Send Announcement",
+      "config": "System Settings"
+    },
+    "logs": {
+      "title": "Activity Log",
+      "type": "Type",
+      "user": "User",
+      "action": "Action",
+      "time": "Time",
+      "export": "Export"
+    }
+  },
+  "advisor": {
+    "title": "Academic Advisor Panel",
+    "ews": {
+      "title": "Early Warning System",
+      "atRisk": "At-Risk Students",
+      "distribution": "Risk Level Distribution",
+      "trend": "Time Trend"
+    },
+    "students": {
+      "title": "Students",
+      "name": "Name",
+      "gpa": "GPA",
+      "attendance": "Attendance",
+      "lastActivity": "Last Activity",
+      "risk": "Risk Level",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "interventions": {
+      "title": "Interventions",
+      "sent": "Sent",
+      "pending": "Pending",
+      "responded": "Responded",
+      "send": "Send Intervention",
+      "followUp": "Follow Up"
+    },
+    "studentDetail": {
+      "title": "Student Details",
+      "history": "Academic History",
+      "riskFactors": "Risk Factors",
+      "recommendations": "Recommendations",
+      "notes": "Notes"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "avatar": {
+      "change": "Change Photo",
+      "upload": "Upload Photo"
+    },
+    "info": {
+      "title": "Personal Information",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "studentId": "Student ID"
+    },
+    "academic": {
+      "title": "Academic Information",
+      "department": "Department",
+      "year": "Year",
+      "enrollmentDate": "Enrollment Date",
+      "expectedGraduation": "Expected Graduation",
+      "advisor": "Academic Advisor"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": "Language",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "Auto",
+      "notifications": "Notifications",
+      "email": "Email Notifications"
+    },
+    "security": {
+      "title": "Security",
+      "changePassword": "Change Password",
+      "twoFactor": "Two-Factor Authentication",
+      "sessions": "Active Sessions",
+      "logoutAll": "Logout from All Devices"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications",
+    "markAllRead": "Mark All as Read",
+    "types": {
+      "info": "Info",
+      "warning": "Warning",
+      "success": "Success",
+      "deadline": "Deadline"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "Sorry, the page you're looking for doesn't exist",
+      "backHome": "Back to Home"
+    },
+    "serverError": {
+      "title": "Server Error",
+      "description": "An unexpected error occurred, please try again"
+    },
+    "networkError": {
+      "title": "Connection Error",
+      "description": "Check your internet connection"
+    }
+  },
+  "departments": {
+    "cs": "Computer Engineering",
+    "ee": "Electrical Engineering",
+    "me": "Mechanical Engineering",
+    "ce": "Civil Engineering",
+    "ae": "Architectural Engineering",
+    "be": "Biomedical Engineering"
+  },
+  "years": {
+    "1": "First Year",
+    "2": "Second Year",
+    "3": "Third Year",
+    "4": "Fourth Year",
+    "5": "Fifth Year"
+  }
+}

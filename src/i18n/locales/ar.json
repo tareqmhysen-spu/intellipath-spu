@@ -1,0 +1,640 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تمت العملية بنجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "close": "إغلاق",
+    "view": "عرض",
+    "download": "تحميل",
+    "upload": "رفع",
+    "refresh": "تحديث",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "welcome": "مرحباً",
+    "home": "الرئيسية",
+    "about": "عن النظام"
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "subtitle": "أدخل بياناتك للوصول إلى حسابك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "example@spu.edu.sy",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "rememberMe": "تذكرني",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "createAccount": "إنشاء حساب جديد",
+      "button": "تسجيل الدخول",
+      "loading": "جاري تسجيل الدخول..."
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "subtitle": "انضم إلى IntelliPath للحصول على استشارات أكاديمية ذكية",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أحمد محمد",
+      "email": "البريد الإلكتروني الجامعي",
+      "emailPlaceholder": "your.id@spu.edu.sy",
+      "studentId": "الرقم الجامعي",
+      "studentIdPlaceholder": "2020123456",
+      "department": "القسم",
+      "selectDepartment": "اختر القسم",
+      "yearLevel": "السنة الدراسية",
+      "selectYear": "اختر السنة",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "passwordRequirements": {
+        "title": "يجب أن تحتوي كلمة المرور على:",
+        "minLength": "8 أحرف على الأقل",
+        "uppercase": "حرف كبير واحد",
+        "lowercase": "حرف صغير واحد",
+        "number": "رقم واحد على الأقل",
+        "special": "رمز خاص (!@#$%^&*)"
+      },
+      "termsAgree": "أوافق على",
+      "termsLink": "الشروط والأحكام",
+      "hasAccount": "لديك حساب بالفعل؟",
+      "loginLink": "تسجيل الدخول",
+      "button": "إنشاء الحساب",
+      "loading": "جاري إنشاء الحساب...",
+      "steps": {
+        "basicInfo": "المعلومات الأساسية",
+        "academicInfo": "المعلومات الأكاديمية",
+        "security": "الأمان",
+        "verification": "التحقق"
+      }
+    },
+    "errors": {
+      "invalidEmail": "البريد الإلكتروني غير صالح",
+      "invalidPassword": "كلمة المرور غير صالحة",
+      "emailExists": "البريد الإلكتروني مستخدم بالفعل",
+      "networkError": "خطأ في الاتصال، يرجى المحاولة مرة أخرى",
+      "unauthorized": "غير مصرح لك بالدخول"
+    }
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "chat": "المحادثة الذكية",
+    "progress": "التقدم الأكاديمي",
+    "courses": "المقررات",
+    "achievements": "الإنجازات",
+    "career": "المسار المهني",
+    "simulator": "محاكي القرارات",
+    "learningStyle": "نمط التعلم",
+    "talentLedger": "سجل المواهب",
+    "deadlines": "المواعيد النهائية",
+    "knowledgeGraph": "خريطة المعرفة",
+    "messages": "الرسائل",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "about": "عن النظام",
+    "admin": "لوحة الإدارة",
+    "advisor": "لوحة المشرف"
+  },
+  "landing": {
+    "hero": {
+      "title": "مستشارك الأكاديمي الذكي",
+      "subtitle": "نظام متكامل للإرشاد الأكاديمي مدعوم بالذكاء الاصطناعي لطلاب كلية الهندسة في الجامعة السورية الخاصة",
+      "cta": {
+        "register": "إنشاء حساب",
+        "login": "تسجيل الدخول",
+        "demo": "جرب الآن"
+      }
+    },
+    "features": {
+      "title": "مميزات النظام",
+      "security": {
+        "title": "أمان عالي",
+        "description": "حماية كاملة لبياناتك الأكاديمية مع أحدث تقنيات التشفير"
+      },
+      "instant": {
+        "title": "ردود فورية",
+        "description": "احصل على إجابات دقيقة لأسئلتك الأكاديمية في ثوانٍ"
+      },
+      "ai": {
+        "title": "ذكاء اصطناعي",
+        "description": "توصيات مخصصة بناءً على أدائك وأهدافك الأكاديمية"
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل النظام؟",
+      "step1": {
+        "title": "إنشاء حساب",
+        "description": "سجل باستخدام بريدك الجامعي"
+      },
+      "step2": {
+        "title": "التحقق من الهوية",
+        "description": "تأكيد حسابك عبر البريد الإلكتروني"
+      },
+      "step3": {
+        "title": "طرح الأسئلة",
+        "description": "تحدث مع المستشار الذكي"
+      },
+      "step4": {
+        "title": "الحصول على التوصيات",
+        "description": "احصل على خطط مخصصة لمسارك الأكاديمي"
+      }
+    },
+    "userTypes": {
+      "students": {
+        "title": "للطلاب",
+        "description": "اكتشف إمكاناتك الأكاديمية مع دعم ذكي",
+        "benefits": [
+          "تتبع تقدمك الأكاديمي",
+          "توصيات مقررات مخصصة",
+          "تخطيط المسار المهني",
+          "إنجازات ومكافآت تحفيزية"
+        ]
+      },
+      "staff": {
+        "title": "للكادر الأكاديمي",
+        "description": "أدوات متقدمة لمتابعة ودعم الطلاب",
+        "benefits": [
+          "نظام إنذار مبكر للطلاب المعرضين للخطر",
+          "تقارير تحليلية شاملة",
+          "التواصل المباشر مع الطلاب",
+          "إدارة المواعيد والمهام"
+        ]
+      }
+    },
+    "services": {
+      "title": "خدماتنا",
+      "studentTab": "منطقة الطالب",
+      "adminTab": "منطقة الإدارة",
+      "studentServices": {
+        "chat": {
+          "title": "المحادثة الذكية",
+          "description": "تحدث مع المستشار الأكاديمي الذكي"
+        },
+        "progress": {
+          "title": "التقدم الأكاديمي",
+          "description": "تتبع تقدمك نحو التخرج"
+        },
+        "simulator": {
+          "title": "محاكي القرارات",
+          "description": "اختبر سيناريوهات أكاديمية مختلفة"
+        },
+        "career": {
+          "title": "المسار المهني",
+          "description": "خطط لمستقبلك المهني"
+        },
+        "achievements": {
+          "title": "الإنجازات",
+          "description": "اكسب نقاط وشارات تحفيزية"
+        },
+        "learningStyle": {
+          "title": "نمط التعلم",
+          "description": "اكتشف أسلوب تعلمك المثالي"
+        },
+        "talent": {
+          "title": "سجل المواهب",
+          "description": "وثق مهاراتك وإنجازاتك"
+        },
+        "courses": {
+          "title": "بصمة المقررات",
+          "description": "تحليلات مفصلة للمقررات"
+        }
+      },
+      "adminServices": {
+        "ews": {
+          "title": "الإنذار المبكر",
+          "description": "رصد الطلاب المعرضين للخطر"
+        },
+        "analytics": {
+          "title": "التحليلات",
+          "description": "تقارير وإحصائيات شاملة"
+        },
+        "management": {
+          "title": "إدارة المستخدمين",
+          "description": "إدارة حسابات الطلاب والمشرفين"
+        }
+      }
+    },
+    "footer": {
+      "copyright": "جميع الحقوق محفوظة",
+      "university": "الجامعة السورية الخاصة - كلية الهندسة"
+    }
+  },
+  "dashboard": {
+    "welcome": "مرحباً، {{name}}",
+    "subtitle": "إليك ملخص نشاطك الأكاديمي",
+    "stats": {
+      "gpa": "المعدل التراكمي",
+      "credits": "الساعات المكتسبة",
+      "xp": "نقاط الخبرة",
+      "achievements": "الإنجازات",
+      "level": "المستوى {{level}}",
+      "streak": "سلسلة {{days}} يوم"
+    },
+    "currentSemester": {
+      "title": "الفصل الحالي",
+      "courses": "المقررات المسجلة",
+      "credits": "ساعات معتمدة"
+    },
+    "deadlines": {
+      "title": "المواعيد القادمة",
+      "empty": "لا توجد مواعيد قادمة",
+      "viewAll": "عرض الكل"
+    },
+    "achievements": {
+      "title": "آخر الإنجازات",
+      "empty": "لم تحصل على إنجازات بعد",
+      "viewAll": "عرض الكل"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "chat": "محادثة ذكية",
+      "gpa": "حساب المعدل",
+      "progress": "التقدم",
+      "career": "المسار المهني"
+    }
+  },
+  "chat": {
+    "title": "المستشار الأكاديمي الذكي",
+    "newChat": "محادثة جديدة",
+    "placeholder": "اكتب سؤالك هنا...",
+    "send": "إرسال",
+    "thinking": "يفكر...",
+    "connected": "متصل",
+    "createError": "فشل إنشاء المحادثة",
+    "deleteError": "فشل حذف المحادثة",
+    "suggestedQuestions": {
+      "title": "أسئلة مقترحة",
+      "items": [
+        "ما هي المقررات المتاحة للفصل القادم؟",
+        "كيف يمكنني تحسين معدلي التراكمي؟",
+        "ما هي متطلبات التخرج؟",
+        "ما المسار المهني المناسب لي؟"
+      ]
+    },
+    "history": {
+      "title": "سجل المحادثات",
+      "empty": "لا توجد محادثات سابقة",
+      "delete": "حذف المحادثة",
+      "deleteConfirm": "هل أنت متأكد من حذف هذه المحادثة؟"
+    }
+  },
+  "progress": {
+    "title": "التقدم الأكاديمي",
+    "overview": {
+      "title": "نظرة عامة",
+      "completed": "مكتمل",
+      "remaining": "متبقي",
+      "graduation": "نسبة التخرج"
+    },
+    "credits": {
+      "title": "توزيع الساعات",
+      "core": "متطلبات الكلية",
+      "major": "متطلبات التخصص",
+      "elective": "اختيارية",
+      "lab": "مختبرات"
+    },
+    "gpaHistory": {
+      "title": "تاريخ المعدل",
+      "semester": "الفصل",
+      "gpa": "المعدل"
+    },
+    "warnings": {
+      "title": "تنبيهات أكاديمية",
+      "lowGpa": "معدل منخفض",
+      "missingPrereq": "متطلبات مفقودة",
+      "deadline": "موعد قريب"
+    }
+  },
+  "achievements": {
+    "title": "الإنجازات",
+    "xp": {
+      "title": "نقاط الخبرة",
+      "current": "النقاط الحالية",
+      "nextLevel": "المستوى التالي",
+      "remaining": "متبقي {{points}} نقطة"
+    },
+    "leaderboard": {
+      "title": "لوحة المتصدرين",
+      "rank": "الترتيب",
+      "name": "الاسم",
+      "xp": "النقاط"
+    },
+    "badges": {
+      "title": "الشارات",
+      "locked": "مقفل",
+      "unlocked": "مفتوح",
+      "progress": "{{current}}/{{total}}"
+    },
+    "categories": {
+      "academic": "أكاديمي",
+      "social": "اجتماعي",
+      "consistency": "استمرارية",
+      "special": "خاص"
+    }
+  },
+  "career": {
+    "title": "المسار المهني",
+    "paths": {
+      "title": "المسارات المهنية",
+      "match": "نسبة التوافق",
+      "software": "مهندس برمجيات",
+      "data": "عالم بيانات",
+      "devops": "مهندس DevOps",
+      "ai": "مهندس ذكاء اصطناعي",
+      "security": "مهندس أمن سيبراني",
+      "network": "مهندس شبكات"
+    },
+    "skills": {
+      "title": "تحليل المهارات",
+      "current": "المهارات الحالية",
+      "required": "المهارات المطلوبة",
+      "gap": "الفجوة"
+    },
+    "recommendations": {
+      "title": "المقررات الموصى بها",
+      "priority": "الأولوية",
+      "addToPlan": "أضف للخطة"
+    },
+    "market": {
+      "title": "رؤى سوق العمل",
+      "salary": "نطاق الراتب",
+      "demand": "الطلب",
+      "employers": "أبرز أصحاب العمل"
+    }
+  },
+  "simulator": {
+    "title": "محاكي القرارات",
+    "builder": {
+      "title": "بناء السيناريو",
+      "selectCourses": "اختر المقررات",
+      "expectedGrade": "الدرجة المتوقعة",
+      "credits": "الساعات"
+    },
+    "calculator": {
+      "title": "حاسبة المعدل",
+      "current": "المعدل الحالي",
+      "projected": "المعدل المتوقع",
+      "change": "التغيير"
+    },
+    "impact": {
+      "title": "تحليل الأثر",
+      "graduation": "موعد التخرج",
+      "prerequisites": "المتطلبات المفتوحة",
+      "risk": "مستوى المخاطر"
+    },
+    "scenarios": {
+      "title": "سيناريوهات جاهزة",
+      "fail": "ماذا لو رسبت؟",
+      "summer": "الدراسة الصيفية",
+      "overload": "زيادة الحمل",
+      "save": "حفظ السيناريو"
+    }
+  },
+  "learningStyle": {
+    "title": "نمط التعلم",
+    "quiz": {
+      "title": "اختبار VARK",
+      "start": "ابدأ الاختبار",
+      "question": "السؤال {{current}} من {{total}}",
+      "submit": "إرسال الإجابات"
+    },
+    "results": {
+      "title": "نتائجك",
+      "visual": "بصري",
+      "auditory": "سمعي",
+      "reading": "قرائي",
+      "kinesthetic": "حركي",
+      "dominant": "النمط السائد"
+    },
+    "tips": {
+      "title": "نصائح مخصصة",
+      "strategies": "استراتيجيات الدراسة",
+      "resources": "الموارد الموصى بها",
+      "tools": "الأدوات المفيدة"
+    }
+  },
+  "talentLedger": {
+    "title": "سجل المواهب",
+    "skills": {
+      "title": "المهارات",
+      "add": "إضافة مهارة",
+      "level": "المستوى",
+      "endorsements": "التزكيات"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "add": "إضافة مشروع",
+      "tech": "التقنيات",
+      "link": "رابط المشروع"
+    },
+    "certificates": {
+      "title": "الشهادات",
+      "add": "إضافة شهادة",
+      "verified": "موثقة",
+      "pending": "قيد المراجعة"
+    },
+    "cv": {
+      "title": "منشئ السيرة الذاتية",
+      "template": "اختر قالب",
+      "export": "تصدير PDF",
+      "linkedin": "تصدير LinkedIn"
+    }
+  },
+  "courses": {
+    "title": "بصمة المقررات",
+    "search": {
+      "placeholder": "ابحث عن مقرر...",
+      "byCode": "حسب الرمز",
+      "byName": "حسب الاسم"
+    },
+    "filters": {
+      "department": "القسم",
+      "credits": "الساعات",
+      "semester": "الفصل",
+      "difficulty": "الصعوبة"
+    },
+    "details": {
+      "code": "رمز المقرر",
+      "name": "اسم المقرر",
+      "credits": "الساعات المعتمدة",
+      "prerequisites": "المتطلبات السابقة",
+      "description": "الوصف",
+      "outcomes": "مخرجات التعلم"
+    },
+    "analytics": {
+      "title": "تحليلات المقرر",
+      "passRate": "نسبة النجاح",
+      "avgGrade": "متوسط الدرجات",
+      "difficulty": "تقييم الصعوبة",
+      "reviews": "تقييمات الطلاب"
+    },
+    "compare": {
+      "title": "مقارنة المقررات",
+      "add": "أضف للمقارنة",
+      "clear": "مسح المقارنة"
+    }
+  },
+  "admin": {
+    "title": "لوحة الإدارة",
+    "stats": {
+      "totalUsers": "إجمالي المستخدمين",
+      "activeSessions": "الجلسات النشطة",
+      "apiCalls": "استدعاءات API",
+      "errorRate": "نسبة الأخطاء"
+    },
+    "users": {
+      "title": "إدارة المستخدمين",
+      "search": "ابحث عن مستخدم...",
+      "role": "الدور",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "active": "نشط",
+      "suspended": "معلق",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "suspend": "تعليق"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "import": "استيراد طلاب",
+      "announce": "إرسال إعلان",
+      "config": "إعدادات النظام"
+    },
+    "logs": {
+      "title": "سجل النشاط",
+      "type": "النوع",
+      "user": "المستخدم",
+      "action": "الإجراء",
+      "time": "الوقت",
+      "export": "تصدير"
+    }
+  },
+  "advisor": {
+    "title": "لوحة المشرف الأكاديمي",
+    "ews": {
+      "title": "نظام الإنذار المبكر",
+      "atRisk": "طلاب معرضون للخطر",
+      "distribution": "توزيع مستويات الخطر",
+      "trend": "الاتجاه الزمني"
+    },
+    "students": {
+      "title": "الطلاب",
+      "name": "الاسم",
+      "gpa": "المعدل",
+      "attendance": "الحضور",
+      "lastActivity": "آخر نشاط",
+      "risk": "مستوى الخطر",
+      "high": "مرتفع",
+      "medium": "متوسط",
+      "low": "منخفض"
+    },
+    "interventions": {
+      "title": "التدخلات",
+      "sent": "المرسلة",
+      "pending": "قيد الانتظار",
+      "responded": "تمت الاستجابة",
+      "send": "إرسال تدخل",
+      "followUp": "متابعة"
+    },
+    "studentDetail": {
+      "title": "تفاصيل الطالب",
+      "history": "السجل الأكاديمي",
+      "riskFactors": "عوامل الخطر",
+      "recommendations": "التوصيات",
+      "notes": "الملاحظات"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "avatar": {
+      "change": "تغيير الصورة",
+      "upload": "رفع صورة"
+    },
+    "info": {
+      "title": "المعلومات الشخصية",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "studentId": "الرقم الجامعي"
+    },
+    "academic": {
+      "title": "المعلومات الأكاديمية",
+      "department": "القسم",
+      "year": "السنة",
+      "enrollmentDate": "تاريخ القبول",
+      "expectedGraduation": "التخرج المتوقع",
+      "advisor": "المشرف الأكاديمي"
+    },
+    "preferences": {
+      "title": "التفضيلات",
+      "language": "اللغة",
+      "theme": "المظهر",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "تلقائي",
+      "notifications": "الإشعارات",
+      "email": "إشعارات البريد"
+    },
+    "security": {
+      "title": "الأمان",
+      "changePassword": "تغيير كلمة المرور",
+      "twoFactor": "المصادقة الثنائية",
+      "sessions": "الجلسات النشطة",
+      "logoutAll": "تسجيل الخروج من جميع الأجهزة"
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "empty": "لا توجد إشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "types": {
+      "info": "معلومة",
+      "warning": "تحذير",
+      "success": "نجاح",
+      "deadline": "موعد نهائي"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "الصفحة غير موجودة",
+      "description": "عذراً، الصفحة التي تبحث عنها غير موجودة",
+      "backHome": "العودة للرئيسية"
+    },
+    "serverError": {
+      "title": "خطأ في الخادم",
+      "description": "حدث خطأ غير متوقع، يرجى المحاولة مرة أخرى"
+    },
+    "networkError": {
+      "title": "خطأ في الاتصال",
+      "description": "تحقق من اتصالك بالإنترنت"
+    }
+  },
+  "departments": {
+    "cs": "هندسة المعلوماتية",
+    "ee": "الهندسة الكهربائية",
+    "me": "الهندسة الميكانيكية",
+    "ce": "الهندسة المدنية",
+    "ae": "هندسة العمارة",
+    "be": "الهندسة الطبية"
+  },
+  "years": {
+    "1": "السنة الأولى",
+    "2": "السنة الثانية",
+    "3": "السنة الثالثة",
+    "4": "السنة الرابعة",
+    "5": "السنة الخامسة"
+  }
+}

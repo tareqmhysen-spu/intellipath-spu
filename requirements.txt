@@ -1,0 +1,44 @@
+# =============================================================================
+# IntelliPath - Python Dependencies
+# المرشد الأكاديمي الذكي - تبعيات بايثون
+# =============================================================================
+# Install with: pip install -r requirements.txt
+# التثبيت: pip install -r requirements.txt
+# =============================================================================
+
+# Core dependencies | التبعيات الأساسية
+python-dotenv==1.0.0  # Environment variable management | إدارة متغيرات البيئة
+pandas==2.1.4  # Data manipulation | معالجة البيانات
+openpyxl==3.1.2  # Excel file support | دعم ملفات Excel
+
+# Supabase client | عميل Supabase
+supabase==2.3.0  # Supabase Python client | عميل Supabase لبايثون
+
+# Neo4j driver | برنامج تشغيل Neo4j
+neo4j==5.15.0  # Neo4j Python driver | برنامج تشغيل Neo4j لبايثون
+
+# LangChain for document processing | LangChain لمعالجة المستندات
+langchain==0.1.0  # LangChain framework | إطار LangChain
+langchain-community==0.0.12  # LangChain community integrations | تكاملات مجتمع LangChain
+pypdf==3.17.4  # PDF processing | معالجة PDF
+
+# OpenAI for embeddings | OpenAI للتضمينات
+openai==1.6.1  # OpenAI Python client | عميل OpenAI لبايثون
+
+# Qdrant vector database | قاعدة بيانات Qdrant المتجهية
+qdrant-client==1.7.0  # Qdrant Python client | عميل Qdrant لبايثون
+
+# HTTP utilities | أدوات HTTP
+httpx==0.26.0  # Async HTTP client | عميل HTTP غير متزامن
+requests==2.31.0  # HTTP requests library | مكتبة طلبات HTTP
+
+# Data validation | التحقق من البيانات
+pydantic==2.5.3  # Data validation | التحقق من البيانات
+
+# Logging and utilities | التسجيل والأدوات
+rich==13.7.0  # Rich terminal output | إخراج طرفية غني
+tqdm==4.66.1  # Progress bars | أشرطة التقدم
+
+# Testing (optional) | الاختبار (اختياري)
+pytest==7.4.4  # Testing framework | إطار الاختبار
+pytest-asyncio==0.23.3  # Async testing | اختبار غير متزامن
